@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Metadatos -->
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel Gómez Leyva">
+        <meta name="description" content="Portafolio de desarrollo web frontend">
+        <meta name="keywords" content="HTML, CSS, JavaScript, React">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Titulo -->
+        <title>Daniel Gomez | Desarrollo Web Front-End</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="assets/desarrollador-de-software.png">
+        <!-- CSS -->
+        <link href="style3.css" rel="stylesheet">
+		<!-- JavaScript -->
+		<script defer src="app2.js" ></script>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <a class="navbar-brand" href="#">&#60 Daniel Gómez &#62</a>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyects">Proyects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+        </nav>
+
+		<!-- Hero Section -->
+		<section class="hero-container">
+			<div class="card-container">
+				<div class="card">
+					<div class="card-img">
+						<img class="img-me" src="assets/yo.jpg" alt="me">
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Who am I:</h5>
+						<p class="card-text">
+							Hello, my name is Daniel Gómez. I'm a frontend developer searching for an opportunity to develop my
+							skills.
+						</p>
+						<!-- <a class="cv-btn" download="DanielGomez_CV" href="/assets/DanielGomez_CV.pdf">Download CV</a> -->
+						<a download="DanielGomez_CV" href="/assets/DanielGomez_CV.pdf" class="cv-btn">
+							<svg>
+								<rect x="0" y="0" fill="none" width="100%" height="100%"/>
+							</svg>
+							Download CV
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <!-- Skills -->
+		<section id="about-me">
+			<div class="me-container">
+				<h1 class="me-title">About Me</h1>
+				<div class="me-side">
+					<div class="education">
+						<h3 class="education-title">Education</h3>
+						<p class="education-card">ESIME - Automation Engineering</p>
+						<p class="education-card">2018 - 2023</p>
+					</div>
+					<div class="lenguage">
+						<h3 class="lenguage-title">Lenguage</h3>
+						<p class="lenguage-card">Spanish: Native</p>
+						<p class="lenguage-card">Ingles: B2</p>
+					</div>
+					<div class="soft-skills">
+						<h3 class="soft-title">Soft Skills</h3>
+						<ul class="soft-ul">
+							<li class="soft-li">Decision Making</li>
+							<li class="soft-li">Organization</li>
+							<li class="soft-li">Teamwork</li>
+							<li class="soft-li">Problem Solving</li>
+							<li class="soft-li">Proactivity</li>
+						</ul>
+					</div>
+				</div>
+				<div class="tech-skills">
+					<h3 class="tech-title">Technical Skills</h3>
+					<img class="skills-img" src="assets/hero-inferior.svg" alt="img1" >
+					<div class="skills-card">
+						<img class="tech" src="assets/HTML.png" alt="skill-img1">
+						<img class="tech" src="assets/CSS.png" alt="skill-img2">
+						<img class="tech" src="assets/js.png" alt="skill-img3">
+						<img class="tech" src="assets/TS.png" alt="skill-img4">
+						<img class="tech" src="assets/react.png" alt="skill-img5">
+						<img class="tech" src="assets/bootstrap.png" alt="skill-img6">
+						<img class="tech" src="assets/tailwind.png" alt="skill-img7">
+						<img class="tech" src="assets/Py.png" alt="skill-img8">
+						<img class="tech" src="assets/SQL.png" alt="skill-img9">
+					</div>
+				</div>
+			</div>
+			
+		</section>
+        
+		<!-- Proyects --> 
+		<section class="proyects" id="proyects">
+			<div class="proyects-container">
+				<h1 class="proyects-title">Personal Proyects</h1>
+				<div class="carrousel">
+                    <div class="btn-proyectos">
+                        <button class="btn-p1" id="btn-p1">
+							<img src="/assets/atras.png" alt="atras-img">
+						</button>
+                    </div>
+					<div class="grande">
+						<a href="https://guitarla-dgl-react-ts.netlify.app/" target="_blank" class="link-img" id="link-img">
+							<img src="/assets/guitarla.png" alt="Proyect Img" class="img-proyect" id="img-proyect">
+						</a>
+					</div>
+					<div class="btn-proyectos">
+                        <button class="btn-p2" id="btn-p2">
+							<img src="/assets/adelante.png" alt="adelante">
+						</button>
+                    </div>
+				</div>
+                <div class="proyects-git" id="proyects">
+                    <a class="g-link" id="g-link" href="https://github.com/PaperD2000/React-ShoppingCart" target="_blank">
+						<img src="/assets/github-btn.png" alt="github-btn" class="github-btn" id="github-btn">
+					</a>
+                </div>
+			</div>
+		</section>
+		
+		<!-- Contact -->
+		 <section id="contact">
+			<div class="contact-container">
+				<h1 class="contact-title">Contact ME</h1>
+				<div class="info-container">
+					<div class="contact-info">
+						<img src="/assets/email.png" alt="email" class="contact-icon">
+						<p>gomez.leyva.daniel@gmail.com</p>
+					</div>
+					<div class="contact-info">
+						<img src="/assets/location.png" alt="city" class="contact-icon">
+						<p>Mexico - Mexico City</p>
+					</div>
+					<div class="contact-info">
+						<img src="/assets/phone.png" alt="phone" class="contact-icon">
+						<p>55 - 4867 0472</p> 
+					</div>
+				</div>
+			</div>
+		 </section>
+	</body>
+</html>
